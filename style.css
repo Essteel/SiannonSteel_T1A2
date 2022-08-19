@@ -19,7 +19,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background: #D0B8DB;
+    background: #69178f44;
 }
 
 #logo {
@@ -28,8 +28,10 @@ header {
 
 nav a {
     font-family: 'Poppins',sans-serif;
-    color: #69178F;
+    color: #411156;
+    font-weight: 700;
     padding: 0 0.5rem;
+    text-decoration: none;
 }
 
 /* Main */
@@ -38,6 +40,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    background-color: #d0b8db84;
 }
 
 main img {
@@ -49,6 +52,7 @@ main h1 {
     font-size: 2rem;
     font-family: 'Aboreto', sans-serif;
     text-align: center;
+    color: #411156;
 }
 
 main p {
@@ -57,3 +61,18 @@ main p {
     padding: 1rem;
 }
 
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #69178f44;
+    padding-top: 0.5rem;
+}
+
+footer p {
+    color: #411156;
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
