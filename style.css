@@ -1,0 +1,33 @@
+/* Add in fonts */
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Poppins:ital,wght@0,300;0,700;1,300&display=swap');
+
+/* Apply styling to all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: #D0B8DB;
+}
+
+#logo {
+    height: 15vw;
+}
+
+nav a {
+    font-family: 'Poppins',sans-serif;
+    color: #69178F;
+    padding: 0 0.5rem;
+}
