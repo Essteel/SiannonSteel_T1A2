@@ -31,3 +31,29 @@ nav a {
     color: #69178F;
     padding: 0 0.5rem;
 }
+
+/* Main */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main img {
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+main h1 {
+    font-size: 2rem;
+    font-family: 'Aboreto', sans-serif;
+    text-align: center;
+}
+
+main p {
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    padding: 1rem;
+}
+
