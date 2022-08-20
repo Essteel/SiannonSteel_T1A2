@@ -1,0 +1,20 @@
+/* Import base styles from styles.css */
+@import url(/styles/style.css);
+
+/* Main */
+main h1 {
+    padding-bottom: 1rem;
+}
+
+#headshot-photo {
+    border-radius: 0;
+}
+
+#contact-button {
+    color: #411156;
+    text-decoration: none;
+    border: 1px solid #411156;
+    padding: 0.2rem 0.5rem;
+    box-shadow: 1px 1px 10px #41115653;
+    border-radius: 7%;
+}
