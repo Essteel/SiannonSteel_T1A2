@@ -1,0 +1,25 @@
+/* Import base styles from styles.css */
+@import url(/styles/style.css); 
+
+/* Main */
+h1 {
+    padding-bottom: 1rem;
+}
+
+main article div {
+    padding-top: 2rem;
+    border-radius: 0%;
+}
+
+main p {
+    padding: 0;
+}
+
+main article h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #411156;
+}
+
+.project-img {
+    border-radius: 0%;
+}
