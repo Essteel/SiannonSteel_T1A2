@@ -1,0 +1,15 @@
+/* Import base styles from styles.css */
+@import url(/styles/style.css); 
+
+/* Main */
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+main article div a img {
+    padding-top: 2rem;
+    border-radius: 0%;
+}

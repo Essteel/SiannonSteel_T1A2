@@ -42,7 +42,7 @@ main {
     flex-wrap: wrap;
     padding: 2rem;
     background-color: #d0b8db84;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 main img {
