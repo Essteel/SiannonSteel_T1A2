@@ -13,3 +13,7 @@ main article div a img {
     padding-top: 2rem;
     border-radius: 0%;
 }
+
+.blog-photo {
+    display: none;
+}
