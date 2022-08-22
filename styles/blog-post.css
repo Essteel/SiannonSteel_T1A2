@@ -1,0 +1,16 @@
+/* Import base styles from styles.css */
+@import url(/styles/style.css);
+
+h1 {
+    padding-bottom: 1.5rem;
+}
+
+figure img {
+    border-radius: 0;
+    padding: 0;
+}
+
+figcaption {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+}
