@@ -15,11 +15,6 @@ main p {
     padding: 0;
 }
 
-main article h2 {
-    font-family: 'Poppins', sans-serif;
-    color: #411156;
-}
-
 .project-img {
     border-radius: 0%;
 }
