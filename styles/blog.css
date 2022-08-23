@@ -2,18 +2,46 @@
 @import url(/styles/style.css); 
 
 /* Main */
-main {
+article {
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
 }
 
-main article div a img {
-    padding-top: 2rem;
+.blog-photo {
     border-radius: 0%;
 }
 
-.blog-photo {
-    display: none;
+main article div img {
+    padding: 1rem 0 1rem 0;
+    width: 50vw;
+}
+
+/* Laptops and monitors media break */
+@media screen and (min-width: 900px) {
+    h1 {
+        width: 100vw;
+    }
+    
+    main {
+        flex-flow: row;
+        /* flex-direction: row;
+        flex-wrap: wrap; */
+    }
+
+    article {
+        display: flex;
+        flex-wrap: wrap;
+        flex: 0.25 0.25 0.25 0.25;
+        width: 50vw;
+    }
+
+    main article div img {
+        padding: 1rem;
+        width: 30vw;
+    }
+    article p {
+        padding: 1rem;
+    }
 }

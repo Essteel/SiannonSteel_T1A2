@@ -93,6 +93,10 @@ footer p {
     text-align: center;
 }
 
+footer img {
+    border: 1px solid #33698f5b;
+}
+
 /* Tablet style devices media break */
 @media screen and (min-width: 470px) and (max-width: 899px) {
     #logo {
@@ -103,7 +107,7 @@ footer p {
         max-width: 16rem;
     }
     main p {
-        padding: 1rem 8rem;
+        padding: 1rem 6rem;
     }
 }
 

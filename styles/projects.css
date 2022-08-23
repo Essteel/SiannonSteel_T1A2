@@ -4,18 +4,39 @@
 /* Main */
 h1 {
     padding-bottom: 1rem;
-}
-
-main article div {
-    padding-top: 2rem;
-    border-radius: 0%;
-}
-
-main p {
-    padding: 0;
+    text-align: center;
 }
 
 .project-img {
     border-radius: 0%;
-    height: 20rem;
+    width: 70vw;
+}
+
+main article div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0 1rem 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+main p {
+    text-align: center;
+}
+
+/* Tablet style devices media break */
+@media screen and (min-width: 470px) and (max-width: 899px) {
+    .project-img {
+        width: 50vw;
+    }
+}
+
+/* Laptops and monitors media break */
+@media screen and (min-width: 900px) {
+    .project-img {
+        width: 40vw;
+    }
 }

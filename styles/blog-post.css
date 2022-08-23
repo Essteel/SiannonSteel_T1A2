@@ -14,3 +14,10 @@ figcaption {
     font-family: 'Poppins', sans-serif;
     font-size: 0.8rem;
 }
+
+/* Laptops and monitors media break */
+@media screen and (min-width: 900px) {
+    main {
+        flex-flow: row;
+    }
+}
