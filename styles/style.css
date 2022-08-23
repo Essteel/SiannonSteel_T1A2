@@ -19,11 +19,13 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background: #69178f44;
+    background: #d0b8db84;
+    border-bottom: 1px solid #33698f5b;
 }
 
 #logo {
     height: 15vw;
+    border: 1px solid #33698f5b;
 }
 
 nav a {
@@ -40,14 +42,15 @@ main {
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
+    justify-content: stretch;
     padding: 2rem;
-    background-color: #d0b8db84;
-    height: 100vh;
 }
 
-main img {
+#profile-photo {
     padding-bottom: 1rem;
     border-radius: 50%;
+    width: 50vw;
+    min-width: 10rem;
 }
 
 main h1 {
@@ -60,7 +63,8 @@ main h1 {
 main p {
     font-size: 1rem;
     font-family: 'Poppins', sans-serif;
-    padding: 1rem;
+    padding: 1rem 1rem;
+    text-align: center;
 }
 
 p:nth-of-type(2) {
@@ -77,8 +81,9 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #69178f44;
+    background-color: #d0b8db84;
     padding-top: 0.5rem;
+    border-top: 1px solid #33698f5b;
 }
 
 footer p {
@@ -93,11 +98,25 @@ footer p {
     #logo {
         height: 10vw;
     }
+    #profile-photo {
+        width: 40vw;
+        max-width: 16rem;
+    }
+    main p {
+        padding: 1rem 8rem;
+    }
 }
 
 /* Laptops and monitors media break */
 @media screen and (min-width: 900px) {
     #logo {
         height: 8vw;
+    }
+    #profile-photo {
+        width: 25vw;
+        max-width: 18rem;
+    }
+    main p {
+        padding: 1rem 18rem;
     }
 }
