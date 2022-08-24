@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48"
+   height="48"
+   viewBox="0 0 12.7 12.7"
+   version="1.1"
+   id="svg5"
+   inkscape:export-filename="linkedin-logo.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="9.5144352"
+     inkscape:cx="11.824139"
+     inkscape:cy="26.748829"
+     inkscape:window-width="1645"
+     inkscape:window-height="757"
+     inkscape:window-x="1580"
+     inkscape:window-y="115"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="powermask"
+       id="path-effect3615"
+       is_visible="true"
+       lpeversion="1"
+       uri="#mask-powermask-path-effect3615"
+       invert="false"
+       hide_mask="false"
+       background="true"
+       background_color="#ffffffff" />
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask-powermask-path-effect3615">
+      <path
+         id="mask-powermask-path-effect3615_box"
+         style="fill:#ffffff;fill-opacity:1"
+         d="M -1,-1 H 13.708541 V 13.708541 H -1 Z" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:13.6617px;font-family:Avenir;-inkscape-font-specification:'Avenir, Ultra-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:0.968182;stroke-width:1.13848"
+         x="0.82406676"
+         y="11.306969"
+         id="text3613"
+         transform="scale(0.99183865,1.0082285)"><tspan
+           id="tspan3611"
+           style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:13.6617px;font-family:Avenir;-inkscape-font-specification:'Avenir, Ultra-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:0.968182;stroke-width:1.13848"
+           x="0.82406676"
+           y="11.306969"
+           sodipodi:role="line">in</tspan></text>
+    </mask>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+       id="rect2617"
+       width="12.708541"
+       height="12.708541"
+       x="0"
+       y="0"
+       mask="url(#mask-powermask-path-effect3615)"
+       inkscape:path-effect="#path-effect3615"
+       d="M 0,0 H 12.708541 V 12.708541 H 0 Z"
+       sodipodi:type="rect" />
+  </g>
+</svg>

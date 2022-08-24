@@ -93,8 +93,11 @@ footer p {
     text-align: center;
 }
 
-footer img {
+footer div a img{
+    width: 3rem;
     border: 1px solid #33698f5b;
+    background-color: #33698fa5;
+    border-radius: 10%;
 }
 
 /* Tablet style devices media break */
