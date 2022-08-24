@@ -2,39 +2,35 @@
 @import url(/styles/style.css); 
 
 /* Main */
-article {
+.blog-photo {
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
-
-.blog-photo {
     border-radius: 0%;
 }
 
 main article div img {
     padding: 1rem 0 1rem 0;
-    width: 50vw;
+    width: 60vw;
+}
+
+h2 {
+    text-align: center;
 }
 
 /* Laptops and monitors media break */
 @media screen and (min-width: 900px) {
-    h1 {
-        width: 100vw;
+    #blog-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     
-    main {
-        flex-flow: row;
-        /* flex-direction: row;
-        flex-wrap: wrap; */
-    }
-
     article {
         display: flex;
         flex-wrap: wrap;
-        flex: 0.25 0.25 0.25 0.25;
-        width: 50vw;
+        flex-direction: column;
+        justify-content: center;
+        width: 40vw;
     }
 
     main article div img {
