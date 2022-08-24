@@ -2,6 +2,10 @@
 @import url(/styles/style.css); 
 
 /* Main */
+h1 {
+    padding-bottom: 1rem;
+}
+
 .blog-photo {
     display: flex;
     justify-content: center;
@@ -13,8 +17,9 @@ main article div img {
     width: 60vw;
 }
 
-h2 {
+.blog-title {
     text-align: center;
+    text-decoration: none;
 }
 
 /* Laptops and monitors media break */

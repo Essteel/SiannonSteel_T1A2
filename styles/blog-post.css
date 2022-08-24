@@ -5,19 +5,66 @@ h1 {
     padding-bottom: 1.5rem;
 }
 
+#date {
+    font-size: 0.8rem;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 figure img {
     border-radius: 0;
     padding: 0;
+    width: 60vw;
 }
 
 figcaption {
     font-family: 'Poppins', sans-serif;
     font-size: 0.8rem;
+    width: 60vw;
+    text-align: center;
+}
+
+main p {
+    padding: 1rem;
+}
+
+#blog-button {
+    color: #411156;
+    text-decoration: none;
+    border: 1px solid #411156;
+    padding: 0.2rem 0.5rem;
+    box-shadow: 1px 1px 10px #41115653;
+    border-radius: 5%;
+    margin-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+}
+
+#blog-button:hover {
+    background-color: #dbc0396b;
+}
+
+/* Tablet style devices media break */
+@media screen and (min-width: 470px) and (max-width: 899px) {
+    figure img {
+        width: 50vw;
+    }
+    figcaption {
+        width: 50vw;
+    }
 }
 
 /* Laptops and monitors media break */
 @media screen and (min-width: 900px) {
-    main {
-        flex-flow: row;
+    figure img {
+        width: 40vw;
     }
+    figcaption {
+        width: 40vw;
+    } 
 }
