@@ -11,6 +11,7 @@
 body {
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 /* Header */
@@ -21,11 +22,13 @@ header {
     padding: 1rem;
     background: #d0b8db84;
     border-bottom: 1px solid #33698f5b;
+    height: 10vh;
 }
 
 #logo {
-    height: 15vw;
+    height: 8vh;
     border: 1px solid #33698f5b;
+    border-radius: 15%;
 }
 
 nav a {
@@ -44,16 +47,20 @@ main {
     flex-wrap: wrap;
     justify-content: stretch;
     padding: 2rem;
+    min-height: 80vh;
 }
 
 #profile-photo {
-    padding-bottom: 1rem;
+    object-fit: cover;
     border-radius: 50%;
     width: 50vw;
     min-width: 10rem;
+    box-shadow: 0.2rem 0.2rem 5px #41115636;
+    border: 1px solid #33698f5b;
 }
 
 main h1 {
+    padding-top: 1rem;
     font-size: 2rem;
     font-family: 'Aboreto', sans-serif;
     text-align: center;
@@ -71,6 +78,12 @@ p:nth-of-type(2) {
     text-align: center;
 }
 
+#about-link {
+    text-decoration: none;
+    color: #69178f;
+}
+
+/* Added for global styling on pages that use h2 */
 h2 {
     font-family: 'Poppins', sans-serif;
     color: #411156;
@@ -81,6 +94,8 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex: 1;
+    height: 10vh;
     background-color: #d0b8db84;
     padding-top: 0.5rem;
     border-top: 1px solid #33698f5b;
@@ -96,7 +111,7 @@ footer p {
 footer div a img{
     width: 3rem;
     border: 1px solid #33698f5b;
-    background-color: #33698fa5;
+    background-color: #33698f;
     border-radius: 10%;
 }
 
@@ -117,7 +132,7 @@ footer div a img{
 /* Laptops and monitors media break */
 @media screen and (min-width: 900px) {
     #logo {
-        height: 8vw;
+        height: 6vh;
     }
     #profile-photo {
         width: 25vw;
