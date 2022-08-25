@@ -14,12 +14,33 @@ h1 {
 
 main article div img {
     padding: 1rem 0 1rem 0;
-    width: 60vw;
+    width: clamp(70vw,40rem,80vw);
 }
 
 .blog-title {
     text-align: center;
     text-decoration: none;
+}
+
+/* Tablet style devices media break */
+@media screen and (min-width: 470px) and (max-width: 899px) {
+    #blog-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    article {
+        width: 40vw;
+    }
+
+    main article div img {
+        padding: 1rem;
+        width: clamp(40vw,50rem,30vw);
+    }
+    article p {
+        padding: 1rem;
+    }
 }
 
 /* Laptops and monitors media break */
@@ -31,16 +52,12 @@ main article div img {
     }
     
     article {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        justify-content: center;
-        width: 40vw;
+        width: 30vw;
     }
 
     main article div img {
         padding: 1rem;
-        width: 30vw;
+        width: clamp(20vw,25rem,30vw);
     }
     article p {
         padding: 1rem;

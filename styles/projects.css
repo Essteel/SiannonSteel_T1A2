@@ -36,7 +36,26 @@ main p {
 
 /* Laptops and monitors media break */
 @media screen and (min-width: 900px) {
-    .project-img {
+    #article-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    article {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
         width: 40vw;
+    }
+
+    .project-img {
+        width: 30vw;
+        height: 22vw;
+    }
+
+    main p {
+        padding: 1rem;
     }
 }

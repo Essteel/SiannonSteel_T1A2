@@ -35,16 +35,18 @@ section {
 @media screen and (min-width: 900px) {
     main {
         flex-flow: row;
+        align-items: flex-start;
     }
-    #title-image {
-        align-items: column;
+
+    #headshot-photo {
+        width: clamp(25rem, 20vh, 30vh);
     }
+
     main p {
         justify-content: space-between;
         padding: 1rem;
     }
     section {
         padding: 1.5rem;
-        flex-flow: nowrap;
     }
 }
