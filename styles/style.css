@@ -31,12 +31,20 @@ header {
     border-radius: 15%;
 }
 
+#logo:hover {
+    border: 3px solid #dbc039;
+}
+
 nav a {
     font-family: 'Poppins',sans-serif;
     color: #411156;
     font-weight: 700;
     padding: 0 0.5rem;
     text-decoration: none;
+}
+
+nav a:hover {
+    font-size: larger;
 }
 
 /* Main */
@@ -57,6 +65,22 @@ main {
     min-width: 10rem;
     box-shadow: 0.2rem 0.2rem 5px #41115636;
     border: 1px solid #33698f5b;
+    animation: photo-fade-in 3s; 
+}
+
+@keyframes photo-fade-in {
+    0% {
+        opacity: 0%;
+        transition: 1s;
+    }
+    50% {
+        opacity: 50%;
+        transition: 1s;
+    }
+    100% {
+        opacity: 100%;
+        transition: 1s;
+    }
 }
 
 main h1 {
@@ -108,11 +132,15 @@ footer p {
     text-align: center;
 }
 
-footer div a img{
+.social-buttons img {
     width: 3rem;
     border: 1px solid #33698f5b;
     background-color: #33698f;
     border-radius: 10%;
+}
+
+.social-buttons img:hover {
+    border: 2px solid #dbc039;
 }
 
 /* Tablet style devices media break */
