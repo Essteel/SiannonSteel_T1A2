@@ -33,6 +33,13 @@ section {
     text-decoration: underline;
 }
 
+/* Tablet style devices media break */
+@media screen and (min-width: 470px) and (max-width: 899px) {
+    main p {
+        padding: 1.5rem;
+    }
+}
+
 /* Laptops and monitors media break */
 @media screen and (min-width: 900px) {
     main {

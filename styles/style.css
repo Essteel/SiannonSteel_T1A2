@@ -26,7 +26,7 @@ header {
 }
 
 #logo {
-    height: clamp(12vh,8vh,6vh);
+    height: clamp(2.5rem,6vh,3rem);
     border: 1px solid #33698f5b;
     border-radius: 15%;
 }
@@ -38,6 +38,7 @@ header {
 
 nav a {
     font-family: 'Poppins',sans-serif;
+    font-size: clamp(0.5rem,1rem,1.5rem);
     color: #411156;
     font-weight: 700;
     padding: 0 0.5rem;
@@ -155,7 +156,7 @@ footer p {
 /* Tablet style devices media break */
 @media screen and (min-width: 470px) and (max-width: 899px) {
     #logo {
-        height: 10vw;
+        height: 7vh;
     }
     #profile-photo {
         width: 40vw;
@@ -169,7 +170,7 @@ footer p {
 /* Laptops and monitors media break */
 @media screen and (min-width: 900px) {
     #logo {
-        height: 6vh;
+        height: 8vh;
     }
     #profile-photo {
         width: 25vw;
