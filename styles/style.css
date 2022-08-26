@@ -31,6 +31,7 @@ header {
     border-radius: 15%;
 }
 
+/* Hover action highlights logo with thick yellow border */
 #logo:hover {
     border: 3px solid #dbc039;
 }
@@ -43,6 +44,7 @@ nav a {
     text-decoration: none;
 }
 
+/* Increases font size of nav bar buttons when hovered over */
 nav a:hover {
     font-size: larger;
 }
@@ -68,6 +70,7 @@ main {
     animation: photo-fade-in 3s; 
 }
 
+/* Makes profile photo fade in when page is loaded */
 @keyframes photo-fade-in {
     0% {
         opacity: 0%;
@@ -107,6 +110,7 @@ p:nth-of-type(2) {
     color: #69178f;
 }
 
+/* Hover action underlines the word 'about' within text and email address to show that that they are links */
 .about-link:hover {
     text-decoration: underline;
 }
@@ -143,6 +147,7 @@ footer p {
     border-radius: 10%;
 }
 
+/* Hover action highlights logos with thick yellow borders */
 .social-buttons img:hover {
     border: 2px solid #dbc039;
 }

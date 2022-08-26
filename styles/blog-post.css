@@ -1,6 +1,7 @@
-/* Import base styles from styles.css */
+/* Import base styles from style.css stylesheet */
 @import url(/styles/style.css);
 
+/* Main */
 h1 {
     padding-bottom: 1.5rem;
 }
@@ -48,6 +49,7 @@ main p {
     text-decoration: none;
 }
 
+/* Hover action changes button background to yellow and underlines text */
 #blog-button:hover {
     background-color: #dbc03998;
     text-decoration: underline;

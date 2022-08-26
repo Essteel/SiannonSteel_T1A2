@@ -1,4 +1,4 @@
-/* Import base styles from styles.css */
+/* Import base styles from style.css stylesheet */
 @import url(/styles/style.css);
 
 /* Main */
@@ -27,6 +27,7 @@ section {
     font-family: 'Poppins', sans-serif;
 }
 
+/* Hover action changes button background to yellow and underlines text */
 .button:hover {
     background-color: #dbc0396b;
     text-decoration: underline;
