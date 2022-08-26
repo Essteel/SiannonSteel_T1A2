@@ -29,6 +29,7 @@ section {
 
 .button:hover {
     background-color: #dbc0396b;
+    text-decoration: underline;
 }
 
 /* Laptops and monitors media break */

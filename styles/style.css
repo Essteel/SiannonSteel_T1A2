@@ -26,7 +26,7 @@ header {
 }
 
 #logo {
-    height: 8vh;
+    height: clamp(12vh,8vh,6vh);
     border: 1px solid #33698f5b;
     border-radius: 15%;
 }
@@ -102,9 +102,13 @@ p:nth-of-type(2) {
     text-align: center;
 }
 
-#about-link {
+.about-link {
     text-decoration: none;
     color: #69178f;
+}
+
+.about-link:hover {
+    text-decoration: underline;
 }
 
 /* Added for global styling on pages that use h2 */

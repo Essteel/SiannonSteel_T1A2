@@ -44,8 +44,13 @@ main p {
     font-size: 0.8rem;
 }
 
+#blog-button a {
+    text-decoration: none;
+}
+
 #blog-button:hover {
     background-color: #dbc03998;
+    text-decoration: underline;
 }
 
 /* Tablet style devices media break */
