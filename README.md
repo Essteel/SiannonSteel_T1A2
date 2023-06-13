@@ -57,7 +57,7 @@ Each blog article features the date it was published, a large image capturing th
 ## Screenshots
 
 Homepage
-![homepage-screenshots](https://user-images.githubusercontent.com/110761232/187011995-c801b1c1-061d-4e20-b57d-d0ae10a86673.png)
+![homepage-screenshots](https://github.com/Essteel/SiannonSteel_T1A2/assets/110761232/ef2ef7ba-6f78-4487-8dc9-c2c4311c472f)
 
 About page
 ![about-screenshots](https://user-images.githubusercontent.com/110761232/187011986-07b98138-4da2-48ab-80b8-b1792aeb2996.png)
